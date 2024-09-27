@@ -2,14 +2,46 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.flex-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 200px;
+}
+
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
+  /* I can do margin:auto instead to center the image */
 }
 
 .title {
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.plant-information{
+  display:flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+}
+
+.plant-item{
+  display: flex;
+  flex-direction: column;
+  width:200px;
+  gap: 5px;
+}
+
+.text{
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
