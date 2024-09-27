@@ -9,6 +9,11 @@ body {
 }
 
 .header {
+  display: flex;
+  /* flex-direction: row;
+  align-items: center;
+  align-content: center; */
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,5 +49,23 @@ a {
 }
 
 ul {
+  display: flex;
+  /*flex-direction: row; */
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+  align-items: center;
+  /* margin: 0px;
+  margin-left: 8px;
+  padding:10px;*/
+  gap:16px;
+}
+
+.profile{
+  display: flex;
+  /* flex-direction: row; */
+  margin-left: auto;
+  align-items: center;
+  /* margin-right: 8px; */
+  gap:16px;
 }
